@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart</title>
+  </head>
+  <body>
+    <nav>
+      <img src="./images/logo_nombre.png" alt="logo_nombre">
+      <button class="cart__toggle">
+      <i class="fa-solid fa-cart-shopping"></i>
+      </button>
+      <!-- Panel del carrito de compras-->
+      <div class="cart__block" id="cart">
+        <div id="cart__list">
+
+        </div>
+        <button class="empty__button">Empty car</button>
+      </div>
+    </nav>
+    <header>
+      <img src="images/logo blanco.png" alt="logo_header">
+    </header>
+    <main>
+      <h3>Todos nuestros productos</h3>
+      <!--lista de productos-->
+      <div id="products-container" class="principal__container">
+
+      </div>
+    </main>
+
+    <script src="https://kit.fontawesome.com/c592ffda05.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
+
