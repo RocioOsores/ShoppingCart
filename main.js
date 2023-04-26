@@ -7,10 +7,10 @@ const cartBlock = document.querySelector('.cart__block');
 //* broshure de productos
 const productsList = document.querySelector('#products-container');
 //* carrito de comoras
-const cart = document.querySelector('#car');
+const cart = document.querySelector('#cart');
 const cartList = document.querySelector('#cart__list');
 //*vaciar el carrito
-emptyCartButton = document.querySelector('#empty__cart')
+const emptyCartButton = document.querySelector('#empty__button')
 // Array que resiva los elementos que deben ir en el carrito de compras
 let cartProducts = [];
 
